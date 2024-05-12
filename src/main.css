@@ -361,6 +361,11 @@ footer h3 {
        column-gap: 1rem;
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .hero-text .resume {
+    justify-content: center;
+  }
+}
 .hero-text .resume__arrow {
   transition: transform 0.5s ease;
 }
@@ -373,28 +378,28 @@ footer h3 {
 .hero-text .resume:hover .resume__text {
   color: #61dbfb;
 }
-.hero-text span {
+.hero-text > span {
   display: flex;
   gap: 1.3rem;
   margin: 2.5rem 0;
   cursor: pointer;
 }
-.hero-text span a {
+.hero-text > span a {
   font-size: 3rem;
   color: #2d2e32;
 }
 @media (max-width: 900px) {
-  .hero-text span {
+  .hero-text > span {
     justify-content: center;
     margin-top: -2rem;
     margin-bottom: 4rem;
     gap: 1.6rem;
   }
 }
-.hero-text span a {
+.hero-text > span a {
   transition: all 0.2s;
 }
-.hero-text span a:hover {
+.hero-text > span a:hover {
   color: #61dbfb;
 }
 .hero-text img {

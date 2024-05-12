@@ -15,7 +15,7 @@ function ProBox({
   const [scroll, setScroll] = useState(false);
   return (
     <>
-      <div className={`pro pro__1 ${cName}`}>
+      <div key={title} className={`pro pro__1 ${cName}`}>
         <div className="pro__img">
           <a target="_blank" href={demo} rel="noreferrer">
             <img
@@ -37,7 +37,7 @@ function ProBox({
           <p>{description}</p>
           <div className="stack">
             {techStack.map((tech) => (
-              <p>{tech}</p>
+              <p key={tech}>{tech}</p>
             ))}
           </div>
 
