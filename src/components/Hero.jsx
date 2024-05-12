@@ -6,6 +6,7 @@ import {
   IconBrandLinkedin,
   IconArrowNarrowRight,
 } from "@tabler/icons-react";
+import pdfFile from "../media/resume.pdf";
 
 const skillsIcons = [
   {
@@ -29,6 +30,10 @@ const skillsIcons = [
 ];
 
 function Hero() {
+  const handlePdfOpen = () => {
+    // Create a new window or tab to open the PDF
+    window.open(pdfFile, "_blank");
+  };
   return (
     <>
       <section id="home" className="hero">
@@ -60,7 +65,7 @@ function Hero() {
                     <IconBrandGithub width={32} height={32} />
                   </a>
                 </span>
-                <p className="resume">
+                <p className="resume" onClick={handlePdfOpen}>
                   <span className="resume__text"> View My Resume</span>
                   <IconArrowNarrowRight
                     width={32}
