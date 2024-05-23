@@ -1,6 +1,7 @@
 import ProBox from "./ProBox";
 import Clothify from "../media/clothifylong.png";
 import Rupee from "../media/rupee.png";
+import Times from "../media/times.png";
 
 function Projects() {
   return (
@@ -38,6 +39,18 @@ function Projects() {
                 demo="https://rupee-tracker-phi.vercel.app"
                 scrollY="-40%"
                 cName="reversed-proj"
+              />
+
+              <ProBox
+                title="India Times"
+                date="(April 2024)"
+                img={Times}
+                description="Developed a news website with category browsing, load more pagination for search results, and an Axios-powered search functionality to retrieve data from an API."
+                techStack={["React", "TailWind CSS", "REST API"]}
+                code="https://github.com/AbiScripter/India-Times-React"
+                demo="https://india-times.vercel.app"
+                scrollY="-55%"
+                // cName="reversed"
               />
             </div>
           </div>
