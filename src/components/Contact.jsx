@@ -17,7 +17,7 @@ function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Location</h3>
-                  <p>Thrissur,Kerala</p>
+                  <p>Thrissur, Kerala</p>
                 </div>
               </div>
 
@@ -27,8 +27,8 @@ function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Mail</h3>
-                  <a href="mailto:abimugunthan2000@gmail.com">
-                    abimugunthan2000@gmail.com
+                  <a href="mailto:abilashb2000@gmail@gmail.com">
+                    abilashb2000@gmail.com
                   </a>
                 </div>
               </div>

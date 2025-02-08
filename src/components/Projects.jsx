@@ -15,8 +15,8 @@ function Projects() {
               <ProBox
                 title="Clothify"
                 img={Clothify}
-                date="(February 2024)"
-                techStack={["React", "Redux", "Ant Design", "Firebase"]}
+                // date="(February 2024)"
+                techStack={["React", "Redux", "TailWindCSS", "Firebase"]}
                 description="A modern online clothing store with a clean design for easy browsing and purchasing fashion items for men, women, and kids. Safe login and order management features make shopping a breeze."
                 code="https://github.com/AbiScripter/Clothify"
                 demo="https://clothify-topaz.vercel.app"
@@ -25,7 +25,7 @@ function Projects() {
 
               <ProBox
                 title="Rupee Tracker"
-                date="(March 2024)"
+                // date="(March 2024)"
                 img={Rupee}
                 description="A user-friendly app to easily track expenses, visualize spending habits, and analyze financial data through intuitive filtering and charts.Stay on top of your money matters with secure authentication and real-time expense monitoring."
                 techStack={[
@@ -43,7 +43,7 @@ function Projects() {
 
               <ProBox
                 title="India Times"
-                date="(April 2024)"
+                // date="(April 2024)"
                 img={Times}
                 description="Developed a news website with category browsing, load more pagination for search results, and an Axios-powered search functionality to retrieve data from an API."
                 techStack={["React", "TailWind CSS", "REST API"]}
