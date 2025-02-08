@@ -1,5 +1,3 @@
-// import "../dist/styles.css";
-// import Waving from "/media/waving.1bae5fcfb51082b5c2b4.png";
 import Waving from "../media/waving.1bae5fcfb51082b5c2b4.png";
 import {
   IconBrandGithub,
@@ -7,6 +5,7 @@ import {
   IconArrowNarrowRight,
 } from "@tabler/icons-react";
 import pdfFile from "../media/resume.pdf";
+import heroImg from "../media/Abi-latest.jpg";
 
 const skillsIcons = [
   {
@@ -75,7 +74,9 @@ function Hero() {
                 </p>
               </div>
 
-              <div className="hero-img"></div>
+              <div className="hero-img">
+                <img src={heroImg} alt="hero-img" />
+              </div>
             </div>
 
             {/*  */}
