@@ -15,12 +15,6 @@ function AboutMe() {
                 A dedicated Front-end Developer <br /> based in Kerala 📍
               </h4>
               <p>
-                I completed my Bachelor of Engineering in Civil from Dhirajlal
-                Gandhi College Of Technology.
-              </p>
-              <br />
-
-              <p>
                 My engineering background equips me with problem-solving,
                 attention to detail, and project management skills, all valuable
                 in web development, where precise user experience and project

@@ -31,12 +31,12 @@ function Projects() {
                 techStack={[
                   "React",
                   "Redux",
-                  "Ant Design",
+                  "Typescript",
                   "Firebase",
                   "Chart.js",
                 ]}
-                code="https://github.com/AbiScripter/Rupee-Tracker"
-                demo="https://rupee-tracker-phi.vercel.app"
+                code="https://github.com/AbiScripter/Rupee-Tracker-TS"
+                demo="https://rupee-tracker-ts.vercel.app/"
                 scrollY="-40%"
                 cName="reversed-proj"
               />

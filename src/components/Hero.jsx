@@ -14,17 +14,22 @@ const skillsIcons = [
   },
 
   {
-    img: "https://skillicons.dev/icons?i=tailwind,sass",
+    img: "https://skillicons.dev/icons?i=js,ts",
     id: 2,
   },
 
   {
-    img: "https://skillicons.dev/icons?i=css,html",
+    img: "https://skillicons.dev/icons?i=tailwind,sass",
     id: 3,
+  },
+
+  {
+    img: "https://skillicons.dev/icons?i=css,html",
+    id: 4,
   },
   {
     img: "https://skillicons.dev/icons?i=git,github",
-    id: 4,
+    id: 5,
   },
 ];
 
