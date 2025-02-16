@@ -116,4 +116,9 @@ nav {
 .logo {
   cursor: pointer;
   color: $black-shade;
+  transition: all 0.23s;
+
+  &:hover {
+    color: $header-color;
+  }
 }
