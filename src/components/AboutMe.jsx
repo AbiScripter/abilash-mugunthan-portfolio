@@ -10,23 +10,16 @@ function AboutMe() {
               <img src={ReactWebDev} className="img-side__main-img" />
             </div>
             <div className="text-side">
-              <h3>About me</h3>
+              <h3>🔥 About Me</h3>
               <h4>
                 A dedicated Front-end Developer <br /> based in Kerala 📍
               </h4>
               <p>
-                My engineering background equips me with problem-solving,
-                attention to detail, and project management skills, all valuable
-                in web development, where precise user experience and project
-                management are crucial.
-              </p>
-              <br />
-
-              <p>
-                My goal is to combine my engineering background with my newfound
-                interest in web development to make websites that are
-                user-friendly. It's a bit of a change from what I was doing
-                before, but I'm excited to see where this journey takes me.
+                I build clean, responsive UIs with React, Tailwind and Redux,
+                focusing on smooth user experiences and maintainable code. I
+                enjoy turning complex ideas into intuitive interfaces and
+                constantly push to improve my skills in state management,
+                performance, and modern frontend practices.
               </p>
             </div>
           </div>

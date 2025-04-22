@@ -2,9 +2,11 @@
 
 .hero {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
+  align-items: center;
+  justify-items: center;
   width: 100%;
-  height: 80vh;
+  min-height: 100vh;
   background-color: $gray-bg-color;
   position: relative;
 
